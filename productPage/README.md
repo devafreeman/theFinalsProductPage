@@ -7,10 +7,8 @@ This is a Product Page application built using React and Vite. It allows users t
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contribution](#contribution)
-- [License](#license)
+
+
 
 ## Features
 
