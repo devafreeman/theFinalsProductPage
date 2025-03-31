@@ -1,12 +1,33 @@
-# React + Vite
+# theFinalsProductPage# Vite React Product Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Product Page application built using React and Vite. It allows users to browse products, view detailed information about each product, and manage a shopping cart.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contribution](#contribution)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Browse a list of products fetched from an API.
+- View detailed information about each product.
+- Add and remove products from a shopping cart.
+- Responsive design with basic navigation.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A modern frontend build tool that offers fast development.
+- **Axios**: A promise-based HTTP client for making API requests.
+- **React Router**: A library for routing in React applications.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/devafreeman/Vite-React-Product-Page.git
