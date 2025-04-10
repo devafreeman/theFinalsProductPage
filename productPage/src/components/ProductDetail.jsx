@@ -33,6 +33,7 @@ const ProductDetail = () => {
       <img src={product.image} alt={product.title} style={{ height: '300px' }} />
       <p>Price: ${product.price}</p>
       <p>Description: {product.description}</p>
+      <p>Category: {product.category}</p>
       <button onClick={() => navigate(-1)}>Back</button>
     </div>
   );

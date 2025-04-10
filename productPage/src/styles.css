@@ -1,0 +1,22 @@
+ .product-list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+ }
+
+ .product-card {
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   padding: 20px;
+   text-align: center;
+   width: 200px;
+ }
+
+ input[type="text"],
+ select {
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   padding: 10px;
+   font-size: 16px;
+ }
