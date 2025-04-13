@@ -1,22 +1,93 @@
- .product-list {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 20px;
-   justify-content: center;
- }
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color:gray;
+  margin: 0;
+}
 
- .product-card {
-   border: 1px solid #ddd;
-   border-radius: 5px;
-   padding: 20px;
-   text-align: center;
-   width: 200px;
- }
+/* Product List Section */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
 
- input[type="text"],
- select {
-   border: 1px solid #ccc;
-   border-radius: 4px;
-   padding: 10px;
-   font-size: 16px;
- }
+/* Product Card Styles */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
+  transition: transform 0.2s;
+  text-align: center;
+  width: 200px;
+  padding: 15px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  border-radius: 5px;
+}
+
+/* Input and Select Styles */
+input[type="text"], input[type="number"], select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: calc(15% - 22px); /* Adjust for padding */
+}
+
+/* Button Styles */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* transition: background 0.3s; */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Cart Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  .product-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card {
+    width: 90%;
+  }
+}
